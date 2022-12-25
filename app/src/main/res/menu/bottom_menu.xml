@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/home" android:icon="@drawable/ic_home" android:id="@+id/homeFragment"/>
+    <item android:title="@string/messages" android:icon="@drawable/ic_messages" android:id="@+id/messagesFragment"/>
+    <item android:title="@string/music" android:icon="@drawable/ic_music" android:id="@+id/musicFragment"/>
+    <item android:title="@string/profile" android:icon="@drawable/ic_person" android:id="@+id/profileFragment"/>
+
+</menu>

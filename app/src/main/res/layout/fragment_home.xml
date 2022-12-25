@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ui.fragments.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="24dp"
+            android:layout_gravity="center"
+            android:src="@color/purple_200"
+            app:riv_corner_radius="36dp"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/MainTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:textSize="20sp"
+        tools:text="@string/good_morning"/>
+
+    <TextView
+        style="@style/MainTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="24dp"
+        android:textSize="14sp"
+        android:text="@string/how_are_you_feeling_today_record_your_progress"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="20dp">
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="56dp"
+            android:layout_height="80dp"
+            android:src="@drawable/img_happy"/>
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="56dp"
+            android:layout_height="80dp"
+            android:src="@drawable/img_calm"/>
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="56dp"
+            android:layout_height="80dp"
+            android:src="@drawable/img_relax"/>
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="56dp"
+            android:layout_height="80dp"
+            android:src="@drawable/img_angry"/>
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="56dp"
+            android:layout_height="80dp"
+            android:src="@drawable/img_sad"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/background">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginBottom="8dp">
+            <TextView
+                style="@style/MainTextViewStyle"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/online_sessions"/>
+            <TextView
+                style="@style/MainTextViewStyle"
+                android:textSize="12sp"
+                android:textColor="@color/text_color_gray"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/let_s_open_up_to_the_things_that_matter_the_most"/>
+
+            <TextView
+                style="@style/MainTextViewStyle"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_color_gray"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book Now"/>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="78dp"
+            android:src="@drawable/img_meetup"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_journal"
+                android:layout_gravity="center"
+                android:layout_marginStart="18dp"/>
+            <TextView
+                style="@style/MainTextViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:text="@string/journal"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_bookmarks"
+                android:layout_gravity="center"
+                android:layout_marginStart="18dp"/>
+            <TextView
+                style="@style/MainTextViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:text="@string/bookmarks"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        android:background="@drawable/background">
+        <TextView
+            style="@style/MainTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:textColor="@color/text_color_gray"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="14dp"
+            android:text="@string/don_t_go_through_life_grow_through_life"/>
+
+        <TextView
+            style="@style/MainTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:textColor="@color/text_color_gray"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="9dp"
+            android:layout_marginEnd="22dp"
+            android:text="@string/eric_butterworth"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#743799"
+        android:background="@drawable/background">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <TextView
+                style="@style/MainTextViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:text="@string/plan_expired"
+                android:textColor="@color/white"/>
+            <TextView
+                style="@style/MainTextViewStyle"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/white"
+                android:textSize="11sp"
+                android:text="@string/get_back_chat_access_and_session_credits"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    style="@style/MainTextViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:text="@string/buy_more"
+                    android:textColor="@color/white"/>
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_arrow"
+                    android:layout_marginStart="16dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="96dp"
+            android:layout_height="64dp"
+            android:src="@drawable/img_meditation"
+            android:layout_marginEnd="50dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

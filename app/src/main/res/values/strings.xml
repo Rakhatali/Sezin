@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Sezin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="how_are_you_feeling_today_record_your_progress">How are you feeling today? Record your progress!</string>
+    <string name="good_morning">Good morning, May!</string>
+    <string name="online_sessions">Online Sessions</string>
+    <string name="let_s_open_up_to_the_things_that_matter_the_most">Let’s open up to the things that matter the most</string>
+    <string name="journal">Journal</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="don_t_go_through_life_grow_through_life">“Don’t go through life, grow through life.“</string>
+    <string name="eric_butterworth">Eric Butterworth</string>
+    <string name="plan_expired">Plan Expired</string>
+    <string name="get_back_chat_access_and_session_credits">Get back chat access and session credits</string>
+    <string name="buy_more">Buy More</string>
+    <string name="home">Home</string>
+    <string name="messages">Messages</string>
+    <string name="music">Music</string>
+    <string name="profile">Profile</string>
+</resources>
