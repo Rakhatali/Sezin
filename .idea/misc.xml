@@ -13,6 +13,24 @@
         <entry key="..\:/Users/AsusRog/AndroidStudioProjects/Sezin2/app/src/main/res/layout/fragment_home.xml" value="0.33" />
         <entry key="..\:/Users/AsusRog/AndroidStudioProjects/Sezin2/app/src/main/res/layout/fragment_messages.xml" value="0.3307291666666667" />
         <entry key="..\:/Users/AsusRog/AndroidStudioProjects/Sezin2/app/src/main/res/menu/bottom_menu.xml" value="0.16770833333333332" />
+        <entry key="app/src/main/res/drawable/background.xml" value="0.2965" />
+        <entry key="app/src/main/res/drawable/bg_profile.xml" value="0.2965" />
+        <entry key="app/src/main/res/drawable/bg_progress.xml" value="0.1835" />
+        <entry key="app/src/main/res/drawable/bg_tab.xml" value="0.2965" />
+        <entry key="app/src/main/res/drawable/bg_tab_selected.xml" value="0.2965" />
+        <entry key="app/src/main/res/layout-v28/fragment_profile.xml" value="0.3484375" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1691842900302115" />
+        <entry key="app/src/main/res/layout/fragment_chat.xml" value="0.35" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.35" />
+        <entry key="app/src/main/res/layout/fragment_messages.xml" value="0.35" />
+        <entry key="app/src/main/res/layout/fragment_music.xml" value="0.35" />
+        <entry key="app/src/main/res/layout/fragment_plans.xml" value="0.3494791666666667" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.35" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_test.xml" value="0.35" />
+        <entry key="app/src/main/res/layout/fragment_therapist_details.xml" value="0.35" />
+        <entry key="app/src/main/res/layout/item_messages.xml" value="0.6494597839135654" />
+        <entry key="app/src/main/res/menu/bottom_menu.xml" value="0.1" />
       </map>
     </option>
   </component>

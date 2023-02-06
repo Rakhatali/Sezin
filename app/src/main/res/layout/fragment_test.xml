@@ -2,13 +2,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:layout_height="match_parent"
-    tools:context=".ui.screens.MessagesFragment">
-
+    tools:context=".ui.screens.TestFragment">
     <LinearLayout
-        android:id="@+id/btn_messages"
         android:layout_width="match_parent"
         android:layout_height="56dp">
 
@@ -27,9 +25,9 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:textSize="22sp"
+            android:textSize="20sp"
             android:textStyle="bold"
-            android:text="Messages"/>
+            android:text="@string/take_a_survey_before_starting"/>
 
         <FrameLayout
             android:layout_width="36dp"
@@ -41,11 +39,10 @@
 
 
     <androidx.recyclerview.widget.RecyclerView
-        tools:listitem="@layout/item_messages"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:paddingStart="16dp"
-        android:paddingEnd="16dp"
-        android:clipToPadding="false"
-        android:layout_weight="1"/>
+        android:layout_weight="1"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"/>
+
 </LinearLayout>

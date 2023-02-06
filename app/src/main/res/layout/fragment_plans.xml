@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_profile"
+    tools:context=".ui.screens.PlansFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:padding="4dp"
+                android:src="@drawable/ic_back"
+                app:tint="@color/white" />
+
+            <TextView
+                style="@style/MainTextViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/choose_plan"
+                android:textColor="@color/white"
+                android:layout_marginStart="16dp"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+
+
+        <TextView
+            style="@style/MainTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:text="@string/choose_plan"
+            android:textColor="@color/white"
+            android:layout_marginTop="12dp"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            style="@style/MainTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:text="@string/unlock_all_features_with_premium_plan"
+            android:textColor="@color/white"
+            android:layout_marginTop="4dp"
+            android:textSize="12sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="36dp"
+            android:background="@drawable/background"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp">
+            <TextView
+                style="@style/MainTextViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="36dp"
+                android:layout_marginEnd="36dp"
+                android:layout_marginTop="40dp"
+                android:text="@string/enable_features"
+                android:textColor="#9347B2"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <TextView
+                style="@style/MainTextViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="36dp"
+                android:layout_marginEnd="36dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/you_can_customize_the_features_in_your_workspace_now_or_you_can_do_it_later_in_menu_account_settings"
+                android:textColor="@color/text_color_gray"
+                android:textSize="12sp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginEnd="36dp">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:padding="6dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_support"/>
+
+                <TextView
+                    style="@style/MainTextViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="36dp"
+                    android:text="@string/enable_features"
+                    android:textColor="#B247A7"
+                    android:textStyle="bold"
+                    android:textSize="16sp"/>
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"/>
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:checked="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#bcbcbd"
+                android:layout_marginStart="36dp"
+                android:layout_marginEnd="36dp"
+                android:layout_marginTop="8dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginEnd="36dp">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:padding="6dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_labels"/>
+
+                <TextView
+                    style="@style/MainTextViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="36dp"
+                    android:text="@string/custom_labels"
+                    android:textColor="#B247A7"
+                    android:textStyle="bold"
+                    android:textSize="16sp"/>
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"/>
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#bcbcbd"
+                android:layout_marginStart="36dp"
+                android:layout_marginEnd="36dp"
+                android:layout_marginTop="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/continue_text"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                style="@style/MainTextViewStyle"
+                android:textColor="@color/white"
+                android:layout_marginStart="36dp"
+                android:layout_marginEnd="36dp"
+                android:background="@drawable/background"
+                android:backgroundTint="#9347B2"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

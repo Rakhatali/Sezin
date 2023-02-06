@@ -1,14 +1,186 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.fragments.MusicFragment">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.screens.MusicFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-</FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="24dp"
+                android:layout_gravity="center"
+                android:src="@drawable/logo"
+                app:riv_corner_radius="36dp"/>
+
+            <TextView
+                style="@style/MainTextViewStyle"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:text="@string/relaxing_music"/>
+
+            <FrameLayout
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginEnd="24dp"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/MainTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:text="@string/music_has_the_power_to_calm_our_senses_and_relax_our_mind_it_also_helps_to_feel_nearly_all_emotions_that_we_experience_in_our_lives_this_music_will_be_ideal_for_sleep_and_evening_relaxation"
+            android:textColor="@color/text_color_gray"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:scaleType="center"
+                    app:riv_corner_radius="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/wind"/>
+
+                <ImageView
+                    android:clickable="true"
+                    android:id="@+id/btn_wind"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp"
+                    android:src="@drawable/ic_play"
+                    app:tint="@color/white" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:scaleType="center"
+                    app:riv_corner_radius="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/forest"/>
+
+                <ImageView
+                    android:clickable="true"
+                    android:id="@+id/btn_forest"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp"
+                    android:src="@drawable/ic_play"
+                    app:tint="@color/white" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:scaleType="center"
+                    app:riv_corner_radius="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/night"/>
+
+                <ImageView
+                    android:clickable="true"
+                    android:id="@+id/btn_night"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp"
+                    android:src="@drawable/ic_play"
+                    app:tint="@color/white" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:scaleType="center"
+                    app:riv_corner_radius="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/ocean"/>
+
+                <ImageView
+                    android:clickable="true"
+                    android:id="@+id/btn_ocean"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp"
+                    android:src="@drawable/ic_play"
+                    app:tint="@color/white" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:scaleType="center"
+                    app:riv_corner_radius="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/waterfall"/>
+
+                <ImageView
+                    android:clickable="true"
+                    android:id="@+id/btn_waterfall"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp"
+                    android:src="@drawable/ic_play"
+                    app:tint="@color/white" />
+
+            </FrameLayout>
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
