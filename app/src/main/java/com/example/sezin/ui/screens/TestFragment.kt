@@ -1,4 +1,4 @@
-package com.example.sezin.ui.fragments
+package com.example.sezin.ui.screens
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import com.example.sezin.R
 
 
-class ProfileFragment : Fragment() {
+class TestFragment : Fragment() {
 
 
     override fun onCreateView(
@@ -16,8 +16,7 @@ class ProfileFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_profile, container, false)
+        return inflater.inflate(R.layout.fragment_test, container, false)
     }
-
 
 }

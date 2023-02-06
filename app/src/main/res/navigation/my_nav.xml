@@ -7,22 +7,57 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.sezin.ui.fragments.HomeFragment"
+        android:name="com.example.sezin.ui.screens.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_testFragment"
+            app:destination="@id/testFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_plansFragment"
+            app:destination="@id/plansFragment" />
+    </fragment>
     <fragment
         android:id="@+id/messagesFragment"
-        android:name="com.example.sezin.ui.fragments.MessagesFragment"
+        android:name="com.example.sezin.ui.screens.MessagesFragment"
         android:label="fragment_messages"
-        tools:layout="@layout/fragment_messages" />
+        tools:layout="@layout/fragment_messages" >
+        <action
+            android:id="@+id/action_messagesFragment_to_chatFragment"
+            app:destination="@id/chatFragment" />
+    </fragment>
     <fragment
         android:id="@+id/musicFragment"
-        android:name="com.example.sezin.ui.fragments.MusicFragment"
+        android:name="com.example.sezin.ui.screens.MusicFragment"
         android:label="fragment_music"
         tools:layout="@layout/fragment_music" />
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.example.sezin.ui.fragments.ProfileFragment"
+        android:name="com.example.sezin.ui.screens.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.sezin.ui.screens.ChatFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" >
+        <action
+            android:id="@+id/action_chatFragment_to_therapistDetailsFragment"
+            app:destination="@id/therapistDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/plansFragment"
+        android:name="com.example.sezin.ui.screens.PlansFragment"
+        android:label="fragment_plans"
+        tools:layout="@layout/fragment_plans" />
+    <fragment
+        android:id="@+id/testFragment"
+        android:name="com.example.sezin.ui.screens.TestFragment"
+        android:label="fragment_test"
+        tools:layout="@layout/fragment_test" />
+    <fragment
+        android:id="@+id/therapistDetailsFragment"
+        android:name="com.example.sezin.ui.screens.TherapistDetailsFragment"
+        android:label="fragment_therapist_details"
+        tools:layout="@layout/fragment_therapist_details" />
 </navigation>

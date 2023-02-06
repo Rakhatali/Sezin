@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    tools:context=".ui.fragments.HomeFragment">
+    tools:context=".ui.screens.HomeFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,7 +16,7 @@
             android:layout_height="36dp"
             android:layout_marginStart="24dp"
             android:layout_gravity="center"
-            android:src="@color/purple_200"
+            android:src="@drawable/logo"
             app:riv_corner_radius="36dp"/>
 
 
@@ -40,6 +40,7 @@
         android:text="@string/how_are_you_feeling_today_record_your_progress"/>
 
     <LinearLayout
+        android:id="@+id/btn_mood"
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_marginStart="24dp"
@@ -210,6 +211,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/btn_plan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -271,6 +273,12 @@
             android:layout_gravity="center"/>
 
     </LinearLayout>
+
+
+    <CalendarView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 
 </LinearLayout>
