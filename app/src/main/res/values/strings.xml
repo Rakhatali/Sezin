@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Sezin</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="how_are_you_feeling_today_record_your_progress">How are you feeling today? Record your progress!</string>
     <string name="good_morning">Good morning, May!</string>
