@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sezin</string>
+    <string name="how_are_you_feeling_today_record_your_progress">Как вы себя чувствуете? Запишите свой прогресс</string>
+    <string name="good_morning">Доброе утро, Мэй!</string>
+    <string name="online_sessions">Онлайн сессия</string>
+    <string name="journal">Журнал</string>
+    <string name="bookmarks">Закладки</string>
+    <string name="don_t_go_through_life_grow_through_life">«Не иди по жизни, расти по жизни».</string>
+    <string name="eric_butterworth">Эрик Баттеруорз</string>
+    <string name="plan_expired">Срок действия плана истек</string>
+    <string name="get_back_chat_access_and_session_credits">Получите доступ к чату и сеансам</string>
+    <string name="buy_more">Купить больше</string>
+    <string name="home">Главная</string>
+    <string name="messages">Сообщения</string>
+    <string name="music">Музыка</string>
+    <string name="profile">Профиль</string>
+    <string name="relaxing_music">Музыка для расслабления</string>
+    <string name="music_has_the_power_to_calm_our_senses_and_relax_our_mind_it_also_helps_to_feel_nearly_all_emotions_that_we_experience_in_our_lives_this_music_will_be_ideal_for_sleep_and_evening_relaxation">Музыка обладает силой успокаивать наши чувства и расслаблять разум. Это также помогает чувствовать почти все эмоции, которые мы испытываем в нашей жизни. Эта музыка идеально подойдет для сна и вечернего релакса.</string>
+    <string name="priority_task_progress">Прогресс приоритетных задач</string>
+    <string name="_3_5_completed">3/5 сделано</string>
+    <string name="overview">Предпросмотр</string>
+    <string name="productivity">Продуктивность</string>
+    <string name="therapist_details">О терапевте</string>
+    <string name="reviews">Отзывы</string>
+    <string name="see_all">Смотреть все</string>
+    <string name="choose_plan">Выбрать план</string>
+    <string name="unlock_all_features_with_premium_plan">Разблокировать все функции Премиума</string>
+    <string name="enable_features">Включить функции</string>
+    <string name="you_can_customize_the_features_in_your_workspace_now_or_you_can_do_it_later_in_menu_account_settings">Теперь вы можете настроить функции в своем рабочем пространстве. Или вы можете сделать это позже в Меню – Настройки учетной записи.</string>
+    <string name="custom_labels">Персональные тексты</string>
+    <string name="continue_text">Продолжить</string>
+    <string name="take_a_survey_before_starting">Пройдите опрос перед стартом!</string>
+    <string name="account_settings">Настройки аккаунт</string>
+    <string name="support">Поддержка</string>
+    <string name="change_information_account">Изменить информацию аккаунта</string>
+    <string name="request_account_info">Запросить информацию о аккаунте</string>
+    <string name="notification_settings">Настройки уведомления</string>
+    <string name="about_sezin">О Sezin</string>
+    <string name="change_language">Поменять язык</string>
+    <string name="write_us">Напишите нам!</string>
+</resources>
